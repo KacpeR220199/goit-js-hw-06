@@ -4,6 +4,6 @@ const output = document.querySelector("#name-output");
 input.addEventListener("input", (call) => {
   output.textContent = call.currentTarget.value;
   if (input.value.trim() === "") {
-    output.textContent = "Anonymus";
+    output.textContent = "Anonymous";
   }
 });
